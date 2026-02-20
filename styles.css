@@ -1,0 +1,13 @@
+body {
+	background-color: #d2e1eb;
+	color: #8d8741;
+
+	font-size: 16px;
+	font-weight:normal; 
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.chill {
+	width: 200px;
+	border-radius: 20px
+}
