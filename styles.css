@@ -1,13 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	background-color: #d2e1eb;
 	color: #8d8741;
 
 	font-size: 16px;
 	font-weight:normal; 
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+	padding: 20px;
+	margin: 40px 0;
+	border-radius: 15px;
 }
 
-.chill {
+#chill {
 	width: 200px;
 	border-radius: 20px
 }
+
+.blog {
+	text-align: center;
+}
+
+.menu {
+	text-align:right
+}
+
+#head {
+  list-style-type: none; 
+  padding: 0;           
+  text-align: center
+}
+
+#head li{
+	margin-right: 40px;
+	display: inline;
+}
+
+/* надо решить этот вопрос,сделать так чтобы нужный параграф подсвечивался когда в панели навигации нажимаешь на него
+section { 
+	padding: 20px;
+	margin: 40px 0;
+	border-radius: 15px;
+	transition: 0.4s;
+}
+
+section.target{
+	background-color:#d2e1eb;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	transform:scale(1.02);
+}  */
+
