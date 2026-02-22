@@ -1,10 +1,10 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	background-color: #d2e1eb;
-	color: #8d8741;
+	background-color: #edf2fe;
+	color: #0b1f33;
 
 	font-size: 16px;
 	font-weight:normal; 
@@ -15,29 +15,25 @@ body {
 	border-radius: 15px;
 }
 
-#chill {
-	width: 200px;
-	border-radius: 20px
-}
-
 .blog {
 	text-align: center;
+	margin:-15px 0px 0px 100px
 }
 
 .menu {
 	text-align:right
 }
 
-#head {
-  list-style-type: none; 
-  padding: 0;           
-  text-align: center
-}
-
 #head li{
-	margin-right: 40px;
+	margin:20px;
 	display: inline;
 }
+
+a {
+    color: #9e4545;
+    text-decoration: none;
+}
+
 
 /* надо решить этот вопрос,сделать так чтобы нужный параграф подсвечивался когда в панели навигации нажимаешь на него
 section { 
@@ -53,3 +49,31 @@ section.target{
 	transform:scale(1.02);
 }  */
 
+
+#html {
+	text-align:center;
+	width: 79rem;
+}
+
+article{
+	width: 40rem
+}
+
+/* переместить дату в центр, либо под фото */
+.time{
+	color:#9e4545;
+}
+
+/* тут надо решить вопрос с текстом под фото надо как-то не мутарно перенести его вместе с фото на лево */
+#chill {
+	width: 300px;
+	border-radius: 20px;
+	position: relative; top: -351px; left: 725px;
+}
+
+figcaption{
+	text-align:center;
+	color:#9e4545
+}
+
+/* теперь в месте где была фотка осталась дыра которую нужно заделать, либо закинуть туда информацию! */
