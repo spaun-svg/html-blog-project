@@ -77,3 +77,25 @@ figcaption{
 }
 
 /* теперь в месте где была фотка осталась дыра которую нужно заделать, либо закинуть туда информацию! */
+
+aside {
+	position: relative; top: -300px; left: 825px;
+}
+
+#aside li {
+	display:flex
+}
+
+#css {
+	position: relative; top: -350px;
+	text-align: center
+}
+
+#js{
+	position: relative; top: -300px;
+	text-align:center
+}
+
+form{
+	position: relative; top: -250px;
+}
