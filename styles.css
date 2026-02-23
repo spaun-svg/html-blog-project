@@ -2,9 +2,27 @@ html {
   scroll-behavior: smooth;
 }
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	background:rgb(37, 59, 35)
+}
+
 body {
-	background-color: #edf2fe;
-	color: #0b1f33;
+	background-image: url("images/tree2.jpg");
+	background-size:cover;
+	background-position: center;
+	/* background-color: #edf2fe; */
+	color: #c4b9b7;
 
 	font-size: 16px;
 	font-weight:normal; 
@@ -15,87 +33,70 @@ body {
 	border-radius: 15px;
 }
 
+.web{
+	transform: translate(220px, 50px);
+}
+
+.button{
+	width: 150px;
+	height: 35px;
+	transform: translate(2200px, -38px);
+	background-color:rgba(0, 0, 0, 0);
+	color:#c4b9b7;
+	border-radius: 10px;
+}
+
+.book{
+	width: 150px;
+	height: 35px;
+	background-color:rgba(0, 0, 0, 0);
+	color:#c4b9b7;
+	border-radius: 10px
+}
+
 .blog {
 	text-align: center;
 	margin:-15px 0px 0px 100px
 }
 
 .menu {
-	text-align:right
+	transform: translate(-350px, 15px);
+	text-align:right;
 }
 
 #head li{
+	
 	margin:20px;
 	display: inline;
+	font-size:25px;
+	font-weight: 600
 }
 
 a {
-    color: #9e4545;
+    color: #c4b9b7;
     text-decoration: none;
 }
 
 
-/* надо решить этот вопрос,сделать так чтобы нужный параграф подсвечивался когда в панели навигации нажимаешь на него
-section { 
-	padding: 20px;
-	margin: 40px 0;
-	border-radius: 15px;
-	transition: 0.4s;
+
+/* колонки */
+body {
+  margin: 0;
 }
 
-section.target{
-	background-color:#d2e1eb;
-	box-shadow: 0 0 20px rgba(0,0,0,0.2);
-	transform:scale(1.02);
-}  */
+.grid-overlay {
+  position: fixed;
+  inset: 0;
+	padding: 0 80px;
 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
 
-#html {
-	text-align:center;
-	width: 79rem;
+  justify-content: center; /* центрируем */
+  pointer-events: none;
 }
 
-article{
-	width: 40rem
-}
-
-/* переместить дату в центр, либо под фото */
-.time{
-	color:#9e4545;
-}
-
-/* тут надо решить вопрос с текстом под фото надо как-то не мутарно перенести его вместе с фото на лево */
-#chill {
-	width: 300px;
-	border-radius: 20px;
-	position: relative; top: -351px; left: 725px;
-}
-
-figcaption{
-	text-align:center;
-	color:#9e4545
-}
-
-/* теперь в месте где была фотка осталась дыра которую нужно заделать, либо закинуть туда информацию! */
-
-aside {
-	position: relative; top: -300px; left: 825px;
-}
-
-#aside li {
-	display:flex
-}
-
-#css {
-	position: relative; top: -350px;
-	text-align: center
-}
-
-#js{
-	position: relative; top: -300px;
-	text-align:center
-}
-
-form{
-	position: relative; top: -250px;
+.grid-overlay div {
+  background: rgba(255, 255, 255, 0.13);
 }
