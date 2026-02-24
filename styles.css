@@ -14,7 +14,16 @@ header{
 	left: 0;
 	width: 100%;
 	padding: 20px 100px;
-	background:rgb(37, 59, 35)
+	background:#101A1B
+}
+
+.greenho{
+	text-align:center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 100px
 }
 
 body {
@@ -47,6 +56,8 @@ body {
 }
 
 .book{
+	position:fixed;
+	top: 0;
 	width: 150px;
 	height: 35px;
 	background-color:rgba(0, 0, 0, 0);
