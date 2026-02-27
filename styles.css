@@ -1,53 +1,90 @@
+.body {
+	background-image: url(images/house3.jpg);
+	background-size: cover; /* Растягивает до заполнения */
+	background-repeat: no-repeat; /* Запрещает повторение */
+	background-position: center; /* Центрирует картинку */
+	background-attachment: fixed; /* Фиксирует фон при прокрутке */
+	height: 100vh; /* Высота равна 100% области просмотра */
+	margin: 0;
+	color: #cfc4b4;
+
+	font-size: 18px;
+	font-family:
+		"Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
 .header {
 	position: sticky;
-	top: 0;
-	background-color: green;
-	background-position: center;
+	top: 20px;
 	height: 130px;
+	background-color: #0e1a17ce;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 0 80px;
+	border-radius: 35px;
+}
+
+.logo_block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
 }
 
 .logo {
-	margin-left: 50px;
-	margin-top: 27px;
 	width: 70px;
 	height: 70px;
 }
 
 .logo_text {
-	margin-left: 140px;
-	margin-top: -63px;
+	margin: 0;
 }
 
 /* работает на весь текст в nav тд */
 .headli {
-	margin-left: 500px;
-	margin-top: -45px;
 	display: flex; /*Делает элементы строки в строку*/
-	list-style-type: none; /*Убирает маркеры*/
+	list-style: none; /*Убирает маркеры*/
 	padding: 0; /* Убирает внутренние отступы */
-	gap: 250px; /* Добавляет расстояние между элементами (по желанию) */
+	margin: 0;
+	gap: 150px; /* Добавляет расстояние между элементами (по желанию) */
 	font-size: 18px;
-	background-color: rgba(137, 43, 226, 0.253);
+
+	/* изменить шрифт */
 }
 
 /* работает с ссылками в nav */
 .headli a {
-	color: #c4b9b7;
+	color: #cfc4b4;
 	text-decoration: none; /* убирает синие подчеркивания */
 }
 
-.button{
-	width: 150px;
-	height: 30px;
+.button {
+	width: 200px;
+	height: 45px;
+	cursor: pointer;
+	background-color: #d2ba97;
+	color: #16202c;
+	border-radius: 11px;
+	border:0;
+	margin-left: 0;
+	margin-right:100px;
 }
 
-.body {
-	background-image: url(images/tree2.jpg);
-	background-size: cover;
-	color: #c4b9b7;
-
-	font-size: 18px;
-	font-family:
-		'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.button2{
+	width: 200px;
+	height: 45px;
+	cursor: pointer;
+	background-color: #d2ba97;
+	color: #16202c;
+	border-radius: 11px;
+	border:0;
+	margin-left: 0;
+	margin-right:100px;
 }
+	/* изменить шрифт */
+
