@@ -1,40 +1,53 @@
-.header{
-	position:sticky;
-	background-color:green;
+.header {
+	position: sticky;
+	top: 0;
+	background-color: green;
 	background-position: center;
-	height:130px
+	height: 130px;
 }
 
-#head{
-	margin-left:37%;
-	margin-top: -15px;
-  display: flex; /*Делает элементы строки в строку*/
-  list-style-type: none; /*Убирает маркеры*/
+.logo {
+	margin-left: 50px;
+	margin-top: 27px;
+	width: 70px;
+	height: 70px;
+}
+
+.logo_text {
+	margin-left: 140px;
+	margin-top: -63px;
+}
+
+/* работает на весь текст в nav тд */
+.headli {
+	margin-left: 500px;
+	margin-top: -45px;
+	display: flex; /*Делает элементы строки в строку*/
+	list-style-type: none; /*Убирает маркеры*/
 	padding: 0; /* Убирает внутренние отступы */
-  gap: 250px; /* Добавляет расстояние между элементами (по желанию) */
+	gap: 250px; /* Добавляет расстояние между элементами (по желанию) */
 	font-size: 18px;
-
+	background-color: rgba(137, 43, 226, 0.253);
 }
 
-#head li{
-	color:#c4b9b7;
-	text-decoration:none /* убирает синие подчеркивания */
+/* работает с ссылками в nav */
+.headli a {
+	color: #c4b9b7;
+	text-decoration: none; /* убирает синие подчеркивания */
 }
 
-.logo{
-	width:70px;
-	height:70px;
+.button{
+	width: 150px;
+	height: 30px;
 }
 
-.body{
+.body {
 	background-image: url(images/tree2.jpg);
-	background-size:cover;
-	color:#c4b9b7;
+	background-size: cover;
+	color: #c4b9b7;
 
-	font-size: 18px
-	}
-
-	.menu{
-		color:#c4b9b7;
-		text-decoration:none /* убирает синие подчеркивания */
-	}
+	font-size: 18px;
+	font-family:
+		'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
