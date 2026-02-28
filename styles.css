@@ -78,16 +78,17 @@
 
 /* main_div */
 
-.button2 {
-	width: 200px;
-	height: 45px;
+.button_main {
+	width: 350px;
+	height: 55px;
 	cursor: pointer;
-	background-color: #d2ba97;
-	color: #16202c;
+	border: 2px solid #d2bb97;
+	background-color: #030d2e70;
+	color: #d2bb97;
 	border-radius: 11px;
-	border: 0;
-	margin-left: 0;
-	margin-right: 100px;
+	margin-left: 1036px;
+	margin-top:200px;
+	font-size:20px;
 }
 /* изменить шрифт */
 
@@ -106,9 +107,11 @@
 }
 
 .quote{
-	background-color:#1b692880;
+	background-color:#4d452f70;
+	border-radius:10px;
 	width:300px;
 	text-align:center;
-
+	margin-left:500px;
+	margin-top:50px
 
 }
