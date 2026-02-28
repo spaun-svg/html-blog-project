@@ -5,7 +5,7 @@
 	background-position: center; /* Центрирует картинку */
 	background-attachment: fixed; /* Фиксирует фон при прокрутке */
 	height: 100vh; /* Высота равна 100% области просмотра */
-	margin: 0;
+	margin: 0 auto;
 	color: #cfc4b4;
 
 	font-size: 18px;
@@ -14,9 +14,8 @@
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-
-
 .header {
+	margin: 0 auto;
 	position: sticky;
 	top: 20px;
 	height: 130px;
@@ -42,15 +41,16 @@
 }
 
 .logo_text {
-	margin: 0;
+	margin: 0 auto;
 }
 
 /* работает на весь текст в nav тд */
 .headli {
+
 	display: flex; /*Делает элементы строки в строку*/
 	list-style: none; /*Убирает маркеры*/
 	padding: 0; /* Убирает внутренние отступы */
-	margin: 0;
+	margin: 0 auto;
 	gap: 150px; /* Добавляет расстояние между элементами (по желанию) */
 	font-size: 18px;
 
@@ -70,21 +70,45 @@
 	background-color: #d2ba97;
 	color: #16202c;
 	border-radius: 11px;
-	border:0;
+	border: 0;
 	margin-left: 0;
-	margin-right:100px;
+	margin-right: 100px;
 }
 
-.button2{
+
+/* main_div */
+
+.button2 {
 	width: 200px;
 	height: 45px;
 	cursor: pointer;
 	background-color: #d2ba97;
 	color: #16202c;
 	border-radius: 11px;
-	border:0;
+	border: 0;
 	margin-left: 0;
-	margin-right:100px;
+	margin-right: 100px;
 }
-	/* изменить шрифт */
+/* изменить шрифт */
 
+.head_block{
+	width:700px;
+	height:300px;
+	font-size: 55px;
+	text-align:center;
+	margin-left:850px;
+}
+
+.greenho{
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+
+.quote{
+	background-color:#1b692880;
+	width:300px;
+	text-align:center;
+
+
+}
