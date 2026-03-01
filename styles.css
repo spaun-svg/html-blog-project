@@ -46,7 +46,6 @@
 
 /* работает на весь текст в nav тд */
 .headli {
-
 	display: flex; /*Делает элементы строки в строку*/
 	list-style: none; /*Убирает маркеры*/
 	padding: 0; /* Убирает внутренние отступы */
@@ -75,7 +74,6 @@
 	margin-right: 100px;
 }
 
-
 /* main_div */
 
 .button_main {
@@ -87,31 +85,43 @@
 	color: #d2bb97;
 	border-radius: 11px;
 	margin-left: 1036px;
-	margin-top:200px;
-	font-size:20px;
+	margin-top: 200px;
+	font-size: 20px;
 }
 /* изменить шрифт */
 
-.head_block{
-	width:700px;
-	height:300px;
+.head_block {
+	width: 700px;
+	height: 300px;
 	font-size: 55px;
-	text-align:center;
-	margin-left:850px;
+	text-align: center;
+	margin-left: 850px;
 }
 
-.greenho{
-	padding:0;
-	margin:0;
-	gap:20px;
+.greenho {
+	padding: 0;
+	margin: 0;
+	gap: 20px;
 }
 
-.quote{
-	background-color:#4d452f70;
-	border-radius:10px;
-	width:300px;
-	text-align:center;
-	margin-left:500px;
-	margin-top:50px
+.quote {
+	background-color: #4d452f70;
+	border-radius: 10px;
+	width: 300px;
+	text-align: center;
+	margin-left: 500px;
+	margin-top: 50px;
+}
 
+.carts{
+	display: flex;
+	justify-content: ;
+	background-color:crimson;
+	width: 2000px;
+	height: 500px;
+}
+
+.image_block{
+	width: 300px;
+	height: 300px;
 }
