@@ -61,6 +61,11 @@
 	color: #cfc4b4;
 	text-decoration: none; /* убирает синие подчеркивания */
 }
+ 
+/* hover-headli */
+.headli a:hover {
+	text-decoration:underline
+}
 
 .button {
 	width: 200px;
@@ -72,6 +77,14 @@
 	border: 0;
 	margin-left: 0;
 	margin-right: 100px;
+}
+
+/*hover - смена цвета кнопки в header */
+
+.button:hover{
+	background-color:#214e2b;
+	text-decoration: ;
+	color:#d2ba97;
 }
 
 /* main_div */
@@ -113,15 +126,15 @@
 	margin-top: 50px;
 }
 
-.carts{
+.carts {
 	display: flex;
-	justify-content: ;
-	background-color:crimson;
+	justify-content:;
+	background-color: rgba(220, 20, 60, 0.301);
 	width: 2000px;
 	height: 500px;
 }
 
-.image_block{
+.image_block {
 	width: 300px;
 	height: 300px;
 }
