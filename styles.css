@@ -61,10 +61,10 @@
 	color: #cfc4b4;
 	text-decoration: none; /* убирает синие подчеркивания */
 }
- 
+
 /* hover-headli */
 .headli a:hover {
-	text-decoration:underline
+	text-decoration: underline;
 }
 
 .button {
@@ -81,10 +81,10 @@
 
 /*hover - смена цвета кнопки в header */
 
-.button:hover{
-	background-color:#214e2b;
-	text-decoration: ;
-	color:#d2ba97;
+.button:hover {
+	background-color: #214e2b;
+	text-decoration:;
+	color: #d2ba97;
 }
 
 /* main_div */
@@ -135,6 +135,7 @@
 }
 
 .image_block {
+	align-items:center;
 	width: 300px;
 	height: 300px;
 }
