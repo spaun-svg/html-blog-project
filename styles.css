@@ -47,6 +47,7 @@
 /* работает на весь текст в nav тд */
 .headli {
 	display: flex; /*Делает элементы строки в строку*/
+	justify-content: center; 
 	list-style: none; /*Убирает маркеры*/
 	padding: 0; /* Убирает внутренние отступы */
 	margin: 0 auto;
@@ -128,7 +129,7 @@
 
 .carts {
 	display: flex;
-	justify-content:;
+	justify-content: center;
 	background-color: rgba(220, 20, 60, 0.301);
 	width: 2000px;
 	height: 500px;
