@@ -7,6 +7,7 @@
 	height: 100vh; /* Высота равна 100% области просмотра */
 	margin: 0 auto;
 	color: #cfc4b4;
+	line-height: 1.8;
 
 	font-size: 18px;
 	font-family: "Montserrat", sans-serif;
@@ -56,18 +57,33 @@
 	gap: 150px; /* Добавляет расстояние между элементами (по желанию) */
 	font-size: 18px;
 
-	/* изменить шрифт */
 }
+
+
 
 /* работает с ссылками в nav */
 .headli a {
 	color: #cfc4b4;
 	text-decoration: none; /* убирает синие подчеркивания */
+  position: relative;    /* Чтобы линия привязалась к ссылке */
+  padding-bottom: 2px;   /* Немного места для линии */
+
+}
+
+.headli a::after {
+  content: '';
+  position: absolute;
+  width: 0;               /* В начале линия не видна */
+  height: 2px;            /* Толщина линии */
+  bottom: 0;
+  left: 0;                /* Начинаем слева */
+  background-color: #646464; /* Цвет линии (сделай такой же, как текст) */
+  transition: width 0.3s ease-in-out; /* Магия плавности */
 }
 
 /* hover-headli */
-.headli a:hover {
-	text-decoration: underline;
+.headli a:hover::after {
+  width: 100%;            /* Линия растягивается до конца */
 }
 
 .button {
@@ -110,6 +126,8 @@
 	margin-top: 200px;
 	font-size: 20px;
 
+	margin-top:25rem;
+
 	transition-property: color, background-color;
 	transition-duration: 0.2s;
 	transition-timing-function: linear;
@@ -122,19 +140,29 @@
 }
 /* изменить шрифт */
 
+
+
+
 .head_block {
-	width: 700px;
+	width: 800px;
 	height: 300px;
 	font-size: 55px;
-	text-align: center;
 	margin-left: 850px;
+	margin-top: 10rem;
+
 }
 
 .main_hotel{
+	display:flex;
+	justify-content:center;
 	font-weight: bold;
+	/* margin-top:15rem */
 }
 
 .greenho {
+	display:flex;
+	justify-content:center;
+	flex-wrap:nowrap;
 	padding: 0;
 	margin: 0;
 	gap: 20px;
