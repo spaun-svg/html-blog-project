@@ -9,15 +9,12 @@
 	color: #cfc4b4;
 
 	font-size: 18px;
-	font-family:
-		"Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
-.main{
-	display:flex;
-	align-items:first baseline
-}
 
 .header {
 	margin: 0 auto;
@@ -74,8 +71,8 @@
 }
 
 .button {
-	width: 200px;
-	height: 45px;
+	width: 230px;
+	height: 55px;
 	cursor: pointer;
 	background-color: #d2ba97;
 	color: #16202c;
@@ -83,6 +80,8 @@
 	border: 0;
 	margin-left: 0;
 	margin-right: 100px;
+	font-weight: bold;
+	font-size:medium;
 
 	transition-property: color, background-color;
 	transition-duration: 0.2s;
@@ -110,10 +109,16 @@
 	margin-left: 1036px;
 	margin-top: 200px;
 	font-size: 20px;
+
+	transition-property: color, background-color;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
 }
 
 .button_main:hover {
-	background-color: ;
+		background-color: #264ec5b4;
+	text-decoration:;
+	color: #d2ba97;
 }
 /* изменить шрифт */
 
@@ -123,6 +128,10 @@
 	font-size: 55px;
 	text-align: center;
 	margin-left: 850px;
+}
+
+.main_hotel{
+	font-weight: bold;
 }
 
 .greenho {
@@ -148,8 +157,22 @@
 	height: 500px;
 }
 
-.image_block {
+.image-cards1 {
 	align-items: center;
 	width: 300px;
 	height: 300px;
 }
+
+.image-cards2 {
+	align-items: center;
+	width: 300px;
+	height: 300px;
+}
+
+.image-cards3 {
+	align-items: center;
+	width: 300px;
+	height: 300px;
+}
+
+
