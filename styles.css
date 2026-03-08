@@ -1,3 +1,14 @@
+
+
+/* Временная подсветка всех блоков */
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.507);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .body {
 	background-image: url(images/tree2.jpg);
 	background-size: cover; /* Растягивает до заполнения */
@@ -14,6 +25,8 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+
+	
 }
 
 
@@ -181,11 +194,13 @@
 }
 
 .carts {
-	display: flex;
-	justify-content: center;
-	/* background-color: rgba(220, 20, 60, 0.301); */
-	width: 2000px;
-	height: 500px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin: 0 auto;
+	background-color: rgba(220, 20, 60, 0.301);
+	width: 950px;
+	height: 350px;
 	position:fixed;
 }
 
