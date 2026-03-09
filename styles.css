@@ -1,9 +1,9 @@
 
 
 /* Временная подсветка всех блоков */
-* {
+/* * {
   outline: 1px solid rgba(255, 0, 0, 0.507);
-}
+} */
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -31,10 +31,10 @@
 
 
 .header {
-	margin: 0 auto;
+	margin: 0px 100px ;
 	position: sticky;
 	top: 20px;
-	height: 130px;
+	height: 120px;
 	background-color: #0e1a17ce;
 
 	display: flex;
