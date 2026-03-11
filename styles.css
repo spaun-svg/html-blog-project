@@ -1,12 +1,12 @@
-
-
 /* Временная подсветка всех блоков */
 /* * {
   outline: 1px solid rgba(255, 0, 0, 0.507);
 } */
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 .body {
@@ -22,16 +22,13 @@
 
 	font-size: 18px;
 	font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-
-	
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
 }
 
-
 .header {
-	margin: 0px 100px ;
+	margin: 0px 100px;
 	position: sticky;
 	top: 20px;
 	height: 120px;
@@ -69,34 +66,30 @@
 	margin: 0 auto;
 	gap: 150px; /* Добавляет расстояние между элементами (по желанию) */
 	font-size: 18px;
-
 }
-
-
 
 /* работает с ссылками в nav */
 .headli a {
 	color: #cfc4b4;
 	text-decoration: none; /* убирает синие подчеркивания */
-  position: relative;    /* Чтобы линия привязалась к ссылке */
-  padding-bottom: 2px;   /* Немного места для линии */
-
+	position: relative; /* Чтобы линия привязалась к ссылке */
+	padding-bottom: 2px; /* Немного места для линии */
 }
 
 .headli a::after {
-  content: '';
-  position: absolute;
-  width: 0;               /* В начале линия не видна */
-  height: 2px;            /* Толщина линии */
-  bottom: 0;
-  left: 0;                /* Начинаем слева */
-  background-color: #646464; /* Цвет линии (сделай такой же, как текст) */
-  transition: width 0.3s ease-in-out; /* Магия плавности */
+	content: "";
+	position: absolute;
+	width: 0; /* В начале линия не видна */
+	height: 2px; /* Толщина линии */
+	bottom: 0;
+	left: 0; /* Начинаем слева */
+	background-color: #646464; /* Цвет линии (сделай такой же, как текст) */
+	transition: width 0.3s ease-in-out; /* Магия плавности */
 }
 
 /* hover-headli */
 .headli a:hover::after {
-  width: 100%;            /* Линия растягивается до конца */
+	width: 100%; /* Линия растягивается до конца */
 }
 
 .button {
@@ -110,7 +103,7 @@
 	margin-left: 0;
 	margin-right: 100px;
 	font-weight: bold;
-	font-size:medium;
+	font-size: medium;
 
 	transition-property: color, background-color;
 	transition-duration: 0.2s;
@@ -134,12 +127,12 @@
 	background-color: #030d2e70;
 	color: #d2bb97;
 	border-radius: 11px;
-	margin-top:25rem;
+	margin-top: 25rem;
 	font-size: 20px;
 
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: 0 auto;
 
 	transition-property: color, background-color;
@@ -148,37 +141,33 @@
 }
 
 .button_main:hover {
-		background-color: #264ec5b4;
+	background-color: #264ec5b4;
 	color: #d2ba97;
 }
 /* изменить шрифт */
 
-
-
-
-.head_block {	
-	display:flex;
+.head_block {
+	display: flex;
 	flex-direction: column;
-	align-items:center;
+	align-items: center;
 	width: 100%;
-	margin:0 auto;
+	margin: 0 auto;
 	font-size: 55px;
 }
 
-.main_hotel{
-	display:flex;
-	justify-content:center;
-	align-items:center;
+.main_hotel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-weight: bold;
-	margin-top:10rem
-	
+	margin-top: 10rem;
 }
 
 .greenho {
-	display:flex;
-	justify-content:center;
-	flex-wrap:nowrap;
-	align-items:center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	align-items: center;
 	padding: 0;
 	margin: 0;
 	gap: 20px;
@@ -193,37 +182,27 @@
 	margin-top: 50px;
 }
 
-.carts {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	margin: 0 auto;
+.card {
+	display: flex;
+
+	justify-content: space-around;
 	background-color: rgba(220, 20, 60, 0.301);
-	width: 950px;
-	height: 350px;
-	position:fixed;
+	
 }
 
-.image_container{
-display:flex;
-justify-content:center}
-
 .image-cards1 {
-	align-items: center;
 	width: 300px;
 	height: 300px;
 }
 
 .image-cards2 {
-	align-items: center;
+
 	width: 300px;
 	height: 300px;
 }
 
 .image-cards3 {
-	align-items: center;
+
 	width: 300px;
 	height: 300px;
 }
-
-
