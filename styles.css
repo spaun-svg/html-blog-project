@@ -1,7 +1,6 @@
-/* Временная подсветка всех блоков */
-/* * {
-  outline: 1px solid rgba(255, 0, 0, 0.507);
-} */
+* {
+	outline: 1px solid rgba(255, 0, 0, 0.507);
+}
 
 *,
 *::before,
@@ -14,7 +13,7 @@
 	background-size: cover; /* Растягивает до заполнения */
 	background-repeat: no-repeat; /* Запрещает повторение */
 	background-position: center; /* Центрирует картинку */
-	background-attachment: fixed; /* Фиксирует фон при прокрутке */
+	/* background-attachment: fixed; */ /* Фиксирует фон при прокрутке */
 	height: 100vh; /* Высота равна 100% области просмотра */
 	margin: 0 auto;
 	color: #cfc4b4;
@@ -32,7 +31,7 @@
 	position: sticky;
 	top: 20px;
 	height: 120px;
-	background-color: #0e1a17ce;
+	background-color: #4e2023b9;
 
 	display: flex;
 	align-items: center;
@@ -97,7 +96,7 @@
 	height: 55px;
 	cursor: pointer;
 	background-color: #d2ba97;
-	color: #16202c;
+	color: #292827;
 	border-radius: 11px;
 	border: 0;
 	margin-left: 0;
@@ -113,8 +112,8 @@
 /*hover - смена цвета кнопки в header */
 
 .button:hover {
-	background-color: #475c4c;
-	color: #d2ba97;
+	background-color: #d39e95;
+	color: #312e2a;
 }
 
 /* main_div */
@@ -154,12 +153,11 @@
 	width: 100%;
 	margin: 0 auto;
 	font-size: 55px;
+	margin-top: 200px;
 }
 
 .main_hotel {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	font-weight: bold;
 	margin-top: 10rem;
 }
@@ -184,73 +182,59 @@
 }
 
 .img_container {
-	margin-top: 25rem;
-	display: flex;
-	justify-content: space-evenly;
-	position:relative;
-	z-index:2;
-	
+	margin-top: 300px;
+	display: grid;
+	justify-content: center;
+	grid-template-areas: "a a a" "b c c" "b c c";
 }
 
 .image-cards1 {
 	border-radius: 5%;
-	width: 300px;
-	height: 300px;
-	border: 5px solid #ffffff; /* Толщина, стиль, цвет */
-	
+	width: 500px;
+	height: 500px;
+	border: 5px solid #ffffff;
 }
 
 .image-cards2 {
 	border-radius: 5%;
 	border: 5px solid #ffffff;
-	width: 300px;
-	height: 300px;
+	width: 500px;
+	height: 500px;
 }
 
 .image-cards3 {
 	border-radius: 5%;
 	border: 5px solid #ffffff;
-	width: 300px;
-	height: 300px;
+	width: 500px;
+	height: 500px;
 }
 
-.image-cards4 {
-	border-radius: 5%;
-	border: 5px solid #ffffff;
-	width: 300px;
-	height: 300px;
-}
+/* .cont-block {
+	display: grid;
+	justify-content: center;
+	grid-template-areas: "a a a" "b c c" "b c c";
 
-.cont-block {
-	display: flex;
-	justify-content: space-evenly;
-	position: relative;
-	bottom: 230px;
-	
 }
 
 .cont1 {
 	background-color: #5f5e5e;
-	width: 300px;
-	height:300px;
+	width: 500px;
+	height:500px;
 	border-radius:5%;
-	text-align:end;
+
+
 }
 
 .cont2 {
 	background-color: #5f5e5e;
-	width: 300px;
-	border-radius:5%
+	width: 500px;
+	border-radius:5%;
+
 }
 
 .cont3 {
 	background-color: #5f5e5e;
-	width: 300px;
-	border-radius:5%
-}
+	width: 500px;
+	border-radius:5%;
 
-.cont4 {
-	background-color: #5f5e5e;
-	width: 300px;
-	border-radius:5%
-}
+} */
