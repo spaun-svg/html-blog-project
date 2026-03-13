@@ -3,7 +3,6 @@
   outline: 1px solid rgba(255, 0, 0, 0.507);
 } */
 
-
 *,
 *::before,
 *::after {
@@ -149,7 +148,7 @@
 
 .head_block {
 	display: flex;
-	justify-content:flex-start;
+	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
@@ -188,58 +187,70 @@
 	margin-top: 25rem;
 	display: flex;
 	justify-content: space-evenly;
+	position:relative;
+	z-index:2;
+	
 }
 
 .image-cards1 {
-	border-radius:5%;
+	border-radius: 5%;
 	width: 300px;
 	height: 300px;
-  border: 5px solid #ffffff; /* Толщина, стиль, цвет */
-
+	border: 5px solid #ffffff; /* Толщина, стиль, цвет */
+	
 }
 
 .image-cards2 {
-	border-radius:5%;
+	border-radius: 5%;
 	border: 5px solid #ffffff;
 	width: 300px;
 	height: 300px;
 }
 
 .image-cards3 {
-	border-radius:5%;
+	border-radius: 5%;
 	border: 5px solid #ffffff;
 	width: 300px;
 	height: 300px;
 }
 
 .image-cards4 {
-	border-radius:5%;
+	border-radius: 5%;
 	border: 5px solid #ffffff;
 	width: 300px;
 	height: 300px;
 }
 
-.cont-block{
-	display:flex;
-	justify-content:space-evenly;
+.cont-block {
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+	bottom: 230px;
+	
 }
 
-.cont1{
-	background-color:#ffffff;
-	width:300px;
+.cont1 {
+	background-color: #5f5e5e;
+	width: 300px;
+	height:300px;
+	border-radius:5%;
+	text-align:end;
 }
 
-.cont2{
-	background-color:#ffffff;
-	width:300px;
+.cont2 {
+	background-color: #5f5e5e;
+	width: 300px;
+	border-radius:5%
 }
 
-.cont3{
-	background-color:#ffffff;
-	width:300px;
+.cont3 {
+	background-color: #5f5e5e;
+	width: 300px;
+	border-radius:5%
 }
 
-.cont4{
-	background-color:#ffffff;
-	width:300px;
+.cont4 {
+	background-color: #5f5e5e;
+	width: 300px;
+	border-radius:5%
 }
